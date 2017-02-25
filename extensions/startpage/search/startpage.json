@@ -1,0 +1,27 @@
+{
+    "schema": {
+        "type": "lbx/search",
+        "version": "0.1.0"
+    },
+    "meta": {
+        "name": "startpage.search",
+        "title": "StartPage",
+        "summary": "StartPage search engine",
+        "description": "StartPage offers you Web search results from Google without collecting or sharing any personal information."
+    },
+    "url": {
+        "base": {
+            "search": "https://startpage.com/do/search",
+            "homepage": "https://startpage.com/"
+        },
+        "params": [
+            {
+                "type": "get",
+                "name": "query",
+                "value": "search.query",
+                "context": ["search"]
+            }
+        ]
+    }
+}
+

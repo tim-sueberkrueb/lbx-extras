@@ -1,0 +1,23 @@
+{
+    "schema": {
+        "type": "lbx/meta",
+        "version": "0.1.0"
+    },
+    "meta": {
+        "name": "startpage",
+        "version": "0.1.0",
+        "title": "Startpage Extension",
+        "author": "Tim Süberkrüb",
+        "email": "tim.sueberkrueb@web.de",
+        "summary": "StartPage.com search engine",
+        "description": "StartPage offers you Web search results from Google"
+    },
+    "content": {
+        "static": {
+            "search": [
+                "res://search/startpage.json"
+            ]
+        }
+    }
+}
+
